@@ -6,7 +6,6 @@ import cn from 'classnames';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { firstLevelMenu } from "../helpers/helpers";
-import { P } from '../../components';
 
 
 export const Menu = (): JSX.Element => {
