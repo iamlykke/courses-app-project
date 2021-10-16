@@ -45,15 +45,7 @@
 }
 
 .secondLevelBlock {
-	display: none;
-}
-
-.secondLevelBlockedOpened {
-	display: block;
-}
-
-.secondLevelBlockedOpened:last-child {
-	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 .thirdLevel {
@@ -68,6 +60,7 @@
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 19px;
+	padding-left: 12px;
 }
 
 .thirdLevelActive,
