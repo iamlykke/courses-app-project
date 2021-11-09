@@ -20,6 +20,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
     }
     setIsSkipLinkDisplayed(false);
   };
+
   return (
     <div className={styles.wrapper}>
       <a
