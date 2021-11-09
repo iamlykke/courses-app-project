@@ -1,10 +1,17 @@
 import React, { useState } from "react";
-import { Button, Htag, Input, P, Rating, Tag, Textarea } from "../components";
 import { withLayout } from "../layout/Layout";
 import { GetStaticProps } from "next";
 import axios from "axios";
 import { MenuItem } from "../interfaces/menu.interface";
 import { API } from "../helpers/api";
+
+function Home({ menu }: HomeProps): JSX.Element {
+  const [rating, setRating] = useState<number>(4);
+
+  return <></>;
+}
+
+export default withLayout(Home);
 
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const firstCategory = 0;
