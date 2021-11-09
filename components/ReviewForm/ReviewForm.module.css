@@ -57,7 +57,7 @@
 	cursor: pointer;
 }
 
-.error .close path{
+.error .close path {
 	stroke: var(--red);
 }
 
@@ -65,9 +65,11 @@
 	.reviewForm {
 		grid-template-columns: [start] 1fr 1fr [end];
 	}
+
 	.title {
 		justify-self: normal;
 	}
+
 	.rating {
 		grid-column: start / end;
 	}

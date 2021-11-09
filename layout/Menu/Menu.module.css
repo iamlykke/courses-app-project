@@ -51,15 +51,15 @@
 	display: block;
 
 	margin-bottom: 10px;
+	padding-left: 12px;
 
 	cursor: pointer;
 
 	color: var(--gray-light);
+	outline-offset: -1px;
 
 	font-size: 14px;
 	font-weight: 500;
-	padding-left: 12px;
-	outline-offset: -1px;
 }
 
 .thirdLevelActive,

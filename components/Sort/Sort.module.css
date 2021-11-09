@@ -22,16 +22,18 @@
 
 .sort button {
 	display: grid;
-	gap: 8px;
-	grid-template-columns: 20px 1fr;
-	border:none;
-	background: none;
-	font-size: 16px;
-	line-height: 22px;
 
 	align-items: center;
 
 	cursor: pointer;
+
+	border: none;
+	background: none;
+
+	font-size: 16px;
+	line-height: 22px;
+	gap: 8px;
+	grid-template-columns: 20px 1fr;
 }
 
 .sort button:not(.active) {
