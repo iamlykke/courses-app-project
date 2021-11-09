@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { ReviewFormProps } from "./ReviewForm.props";
 import styles from "./ReviewForm.module.css";
 import cn from "classnames";
@@ -40,6 +41,7 @@ export const ReviewForm = ({
         setError("Что-то пошло не так");
       }
     } catch (e) {
+      // @ts-ignore
       setError(e.message);
     }
   };
